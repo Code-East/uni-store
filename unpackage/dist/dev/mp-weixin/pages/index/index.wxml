@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><navigator url="/pages/list/list">点击list</navigator><navigator url="/subpkg/news/news">点击news</navigator><button data-event-opts="{{[['tap',[['choseImg',['$event']]]]]}}" bindtap="__e">点击获取照片</button><image src="{{imgSrc}}"></image></view>
